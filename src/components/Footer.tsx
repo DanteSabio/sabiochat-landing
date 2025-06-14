@@ -17,7 +17,7 @@ const Footer = () => {
   }
 
   const handleCopyPhone = () => {
-    navigator.clipboard.writeText('+54 11 1234-5678')
+    navigator.clipboard.writeText('+54 11 7831-1067')
     setCopiedPhone(true)
     setTimeout(() => setCopiedPhone(false), 2000)
   }
@@ -113,7 +113,7 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   className="text-gray-300 hover:text-indigo-400 transition-colors"
                 >
-                  +54 11 1234-5678
+                  +54 11 7831-1067
                 </a>
                 <div className="flex ml-2">
                   <a
