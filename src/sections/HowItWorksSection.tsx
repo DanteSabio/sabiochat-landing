@@ -175,28 +175,32 @@ const HowItWorksSection = () => {
               className="text-center"
             >
               <div className="w-16 h-16 mx-auto bg-white rounded-xl shadow-sm border border-gray-200 flex items-center justify-center mb-3">
-              <svg className="w-8 h-8 text-blue-500" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M5.5 15.5h13c1.38 0 2.5-1.12 2.5-2.5 0-1.18-.82-2.18-1.92-2.43C18.71 8.99 17.23 8 15.5 8c-.827 0-1.58.275-2.19.736C12.82 7.14 11.5 6 9.5 6 7.57 6 6 7.57 6 9.5c0 .17.013.338.037.5C4.84 10.34 4 11.58 4 13c0 1.38 1.12 2.5 2.5 2.5z"/>
-                </svg>
-              </div>
+                  <img
+                    src="https://static2.sharepointonline.com/files/fabric/assets/brand-icons/product/svg/onedrive_48x1.svg"
+                    alt="OneDrive"
+                    className="w-10 h-10 object-contain"
+                  />
+                </div>
               <span className="text-sm font-medium text-gray-700">OneDrive</span>
             </motion.div>
 
-            {/* Salesforce - LOGO CORREGIDO */}
+            {/* Google Drive */}
             <motion.div
-              initial={{ opacity: 0, scale: 0.8 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 0.4 }}
-              className="text-center"
-            >
-              <div className="w-16 h-16 mx-auto bg-white rounded-xl shadow-sm border border-gray-200 flex items-center justify-center mb-3">
-              <svg className="w-8 h-8 text-blue-500" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM19 18H6c-2.21 0-4-1.79-4-4 0-2.05 1.53-3.76 3.56-3.97l1.07-.11.5-.95C8.08 7.14 9.94 6 12 6c2.62 0 4.88 1.86 5.39 4.43l.3 1.5 1.53.11c1.56.1 2.78 1.41 2.78 2.96 0 1.65-1.35 3-3 3z"/>
-              </svg>
-              </div>
-              <span className="text-sm font-medium text-gray-700">Salesforce</span>
-            </motion.div>
+                initial={{ opacity: 0, scale: 0.8 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: 0.4 }}
+                className="text-center"
+              >
+                <div className="w-16 h-16 mx-auto bg-white rounded-xl shadow-sm border border-gray-200 flex items-center justify-center mb-3">
+                    <img
+                      src="https://www.gstatic.com/images/branding/product/1x/drive_2020q4_48dp.png"
+                      alt="Google Drive"
+                      className="w-10 h-10 object-contain"
+                    />
+                  </div>
+                <span className="text-sm font-medium text-gray-700">Google Drive</span>
+              </motion.div>
           </div>
         </div>
       </motion.div>

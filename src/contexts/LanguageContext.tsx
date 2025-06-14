@@ -62,7 +62,7 @@ const translations = {
     'features.ai.title': 'IA personalizada',
     'features.ai.description': 'Bots inteligentes que aprenden y se adaptan para ofrecer respuestas veloces y precisas sobre la empresa.',
     'features.implementation.title': 'Integración inmediata',
-    'features.implementation.description': 'Integrate SabioChat in minutes with your existing tools like OneDrive, Whatsapp or Drive. No complexity.',
+    'features.implementation.description': 'Integrá SabioChat en minutos con tus herramientas existentes como OneDrive, Whatsapp o Google Drive. Sin complejidad.',
     'features.security.title': 'Seguridad de datos',
     'features.security.description': 'Protegé los datos de tu empresa con control de acceso y trazabilidad completa.',
     'features.analytics.title': 'Análisis en tiempo real',
