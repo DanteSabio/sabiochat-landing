@@ -6,10 +6,10 @@ import { LanguageProvider } from '@/contexts/LanguageContext'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'SabioChat IA - Implementa IA para soporte interno',
-  description: 'Eficiente, Rápido y Preciso. No es IA en lugar de vos, es IA con vos, para que ganes más tiempo para lo que sí se necesita de vos: estrategia, capacitación, decisiones clave.',
+  title: 'SabioChat',
+  description: 'IA diseñada para potenciar tu negocio.',
   icons: {
-    icon: '/favicon.svg',
+    icon: '/sabio-logo.ico',
     apple: '/sabio-logo.png',
   },
 }
