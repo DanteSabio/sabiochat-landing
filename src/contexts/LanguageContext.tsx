@@ -219,14 +219,6 @@ const translations = {
 'locale': 'es-AR',
 'currencyCode': 'ARS',
 
-// Navegación
-'nav.features': 'Funcionalidades',
-'nav.howItWorks': 'Cómo funciona',
-'nav.useCases': 'Casos de uso',
-'nav.pricing': 'Precios',
-'nav.roiCalculator': 'Calculadora ROI',
-'nav.tryFree': 'Probar gratis',
-
 // ROI Calculator - Títulos principales
 'roi.title': 'Calcula tu',
 'roi.titleHighlight': 'ROI con SabioChat',
