@@ -29,12 +29,12 @@ const translations = {
     'hero.subtitle': 'Creá asistentes con IA para soporte interno o atención al cliente. Entrenalos con tu propia información y conectalos a los canales y sistemas que ya usás.',
     'hero.tryFree': 'Probar gratis',
     'hero.watchDemo': 'Ver demostración',
-    'hero.stat1': '95%',
-    'hero.stat1Label': 'Problemas resueltos',
-    'hero.stat2': '3x',
-    'hero.stat2Label': 'Mayor rapidez',
-    'hero.stat3': '99%',
-    'hero.stat3Label': 'Respuestas precisas',
+    'hero.stat1': '85%',
+    'hero.stat1Label': 'Menor tiempo de respuesta',
+    'hero.stat2': '60%',
+    'hero.stat2Label': 'Ahorro en costos',
+    'hero.stat3': '20%',
+    'hero.stat3Label': 'Más ventas',
     'hero.dashboardTitle': 'SabioChat Dashboard',
     'hero.chatUser': 'Usuario:',
     'hero.chatQuestion': '"¿Tenemos computadoras en stock?"',
@@ -213,6 +213,108 @@ const translations = {
     'footer.privacy': 'Política de privacidad',
     'footer.terms': 'Términos de servicio',
     'footer.cookies': 'Cookies',
+    
+
+// Configuración de formato
+'locale': 'es-AR',
+'currencyCode': 'ARS',
+
+// Navegación
+'nav.features': 'Funcionalidades',
+'nav.howItWorks': 'Cómo funciona',
+'nav.useCases': 'Casos de uso',
+'nav.pricing': 'Precios',
+'nav.roiCalculator': 'Calculadora ROI',
+'nav.tryFree': 'Probar gratis',
+
+// ROI Calculator - Títulos principales
+'roi.title': 'Calcula tu',
+'roi.titleHighlight': 'ROI con SabioChat',
+'roi.subtitle': 'Descubre el impacto financiero que SabioChat puede tener en tu empresa',
+
+// ROI Calculator - Navegación de pasos
+'roi.step': 'Paso',
+'roi.of': 'de',
+'roi.complete': 'completado',
+'roi.continue': 'Continuar',
+'roi.back': 'Atrás',
+'roi.improvement': 'mejora',
+'roi.perYear': 'por año',
+
+// Paso 1 - Casos de uso
+'roi.step1.title': 'Selecciona tus casos de uso',
+'roi.step1.subtitle': 'Elige las áreas donde SabioChat puede impactar tu negocio',
+'roi.useCase1.title': 'Atención al Cliente',
+'roi.useCase1.description': 'Automatiza respuestas y resuelve consultas 24/7',
+'roi.useCase2.title': 'Soporte de Ventas',
+'roi.useCase2.description': 'Acelera el proceso de ventas con información instantánea',
+'roi.useCase3.title': 'Operaciones Internas',
+'roi.useCase3.description': 'Optimiza procesos internos y reduce costos operativos',
+'roi.useCase4.title': 'Recursos Humanos',
+'roi.useCase4.description': 'Automatiza consultas de RRHH y mejora la experiencia del empleado',
+
+// Paso 2 - Datos de la empresa
+'roi.step2.title': 'Cuéntanos sobre tu empresa',
+'roi.step2.subtitle': 'Ingresa algunos datos básicos para personalizar tu cálculo',
+'roi.yourData': 'Ingresa los datos de tu empresa',
+'roi.input.employees': 'Número de empleados',
+'roi.placeholder.employees': 'Ej: 50',
+'roi.input1Label': 'Costos operativos mensuales (ARS)',
+'roi.input1Placeholder': 'Ej: 500000',
+'roi.input2Label': 'Tiempo promedio de respuesta actual (minutos)',
+'roi.input2Placeholder': 'Ej: 15',
+'roi.input3Label': 'Horas mensuales buscando información',
+'roi.input3Placeholder': 'Ej: 80',
+'roi.input4Label': 'Ventas mensuales promedio (ARS)',
+'roi.input4Placeholder': 'Ej: 2000000',
+'roi.input.supportTickets': 'Tickets de soporte mensuales',
+'roi.placeholder.supportTickets': 'Ej: 200',
+
+// Paso 3 - Vista previa del impacto
+'roi.step3.title': 'Impacto potencial de SabioChat',
+'roi.step3.subtitle': 'Basado en estudios de empresas que implementaron IA empresarial',
+
+// Paso 4 - Resultados
+'roi.step4.title': 'Tu potencial de ROI',
+'roi.step4.subtitle': 'Estos son los resultados proyectados para tu empresa',
+'roi.calculateButton': 'Calcular mi ROI',
+'roi.yourPotential': 'Tu potencial con SabioChat',
+
+// Resultados específicos
+'roi.result1Title': 'Ahorro en costos operativos',
+'roi.result1Description': '60% de reducción mensual',
+'roi.result2Title': 'Nuevo tiempo de respuesta',
+'roi.result2Description': '85% más rápido',
+'roi.result3Title': 'Tiempo ahorrado en búsquedas',
+'roi.result3Description': '90% menos tiempo buscando',
+'roi.result4Title': 'Incremento en ventas',
+'roi.result4Description': '20% de aumento mensual',
+'roi.result5Title': 'Aumento de productividad',
+'roi.result5Description': 'Mejora en la eficiencia del equipo',
+'roi.totalAnnualSavingsTitle': 'Ahorro total anual proyectado',
+'roi.totalAnnualSavingsDescription': 'Suma de ahorros y ganancias adicionales',
+
+// Unidades
+'roi.minutes': 'minutos',
+'roi.hours': 'horas',
+
+// Impacto de IA - Métricas
+'roi.impact.title': 'Impacto de integrar IA empresarial como SabioChat',
+'roi.impact.metric1': 'Reducción en el tiempo promedio de respuesta a clientes y empleados',
+'roi.impact.metric2': 'Ahorro en costos operativos al automatizar consultas repetitivas y tareas manuales',
+'roi.impact.metric3': 'Disminución del tiempo de búsqueda de información crítica en documentos internos',
+'roi.impact.metric4': 'Aumento en la productividad de los equipos al liberar tiempo operativo',
+'roi.impact.metric5': 'Incremento en ventas al mejorar la atención, la velocidad y la personalización en la experiencia del cliente',
+
+// CTA Final
+'roi.cta.title': '¿Listo para transformar tu negocio?',
+'roi.cta.subtitle': 'Agenda una demo personalizada y descubre cómo SabioChat puede generar estos resultados en tu empresa',
+'roi.cta.schedule': 'Agendar demo',
+'roi.cta.recalculate': 'Recalcular ROI',
+
+// Disclaimer
+'roi.sourceDisclaimer': 'Estas métricas se basan en estudios de empresas que implementaron IA generativa integrada a sus sistemas (McKinsey, IBM, Salesforce, PwC), junto con resultados obtenidos por nuestros clientes.',
+
 
 
   },
@@ -232,12 +334,12 @@ const translations = {
     'hero.subtitle': 'Create AI assistants for internal support or customer service. Train them with your own information and connect them to the channels and systems you already use.',
     'hero.tryFree': 'Try free',
     'hero.watchDemo': 'Watch demo',
-    'hero.stat1': '95%',
-    'hero.stat1Label': 'Problems solved',
-    'hero.stat2': '3x',
-    'hero.stat2Label': 'Faster response',
-    'hero.stat3': '99%',
-    'hero.stat3Label': 'Accurate answers',
+    'hero.stat1': '85%',
+    'hero.stat1Label': 'Faster response',
+    'hero.stat2': '60%',
+    'hero.stat2Label': 'Cost savings',
+    'hero.stat3': '20%',
+    'hero.stat3Label': 'More sales',
     'hero.dashboardTitle': 'SabioChat Dashboard',
     'hero.chatUser': 'User:',
     'hero.chatQuestion': '"Do we have computers in stock?"',
@@ -420,6 +522,46 @@ const translations = {
     'footer.terms': 'Terms of service',
     'footer.cookies': 'Cookies',
 
+    // ROI Calculator
+    'roi.title': 'Calculate your',
+    'roi.titleHighlight': 'ROI with SabioChat',
+    'roi.subtitle': 'Discover the financial impact SabioChat can have on your company',
+    'roi.yourData': 'Enter your company data',
+    'roi.input1Label': 'Monthly operational costs (USD)',
+    'roi.input1Placeholder': 'Ex: 10000',
+    'roi.input2Label': 'Current average response time (minutes)',
+    'roi.input2Placeholder': 'Ex: 15',
+    'roi.input3Label': 'Monthly hours searching for information',
+    'roi.input3Placeholder': 'Ex: 80',
+    'roi.input4Label': 'Average monthly sales (USD)',
+    'roi.input4Placeholder': 'Ex: 50000',
+    'roi.calculateButton': 'Calculate my ROI',
+    'roi.yourPotential': 'Your potential with SabioChat',
+    'roi.result1Title': 'Operational cost savings',
+    'roi.result1Description': '60% monthly reduction',
+    'roi.result2Title': 'New response time',
+    'roi.result2Description': '85% faster',
+    'roi.result3Title': 'Time saved in searches',
+    'roi.result3Description': '90% less time searching',
+    'roi.result4Title': 'Sales increase',
+    'roi.result4Description': '20% monthly increase',
+    'roi.totalAnnualSavingsTitle': 'Projected total annual savings',
+    'roi.totalAnnualSavingsDescription': 'Sum of savings and additional earnings',
+    'roi.sourceDisclaimer': 'These metrics are based on studies of companies that implemented generative AI integrated into their systems (McKinsey, IBM, Salesforce, PwC), along with results obtained by our clients.',
+    'roi.minutes': 'minutes',
+    'roi.hours': 'hours',
+
+    // AI Impact
+    'roi.impact.title': 'Impact of integrating enterprise AI like SabioChat',
+    'roi.impact.metric1': '85% Reduction in average response time to customers and employees',
+    'roi.impact.metric2': '60% Savings in operational costs by automating repetitive queries and manual tasks',
+    'roi.impact.metric3': '90% Decrease in search time for critical information in internal documents',
+    'roi.impact.metric4': '35% Increase in team productivity by freeing up operational time',
+    'roi.impact.metric5': '20% Increase in sales by improving attention, speed and personalization in customer experience',
+
+    // Currency format
+    'locale': 'en-US',
+    'currencyCode': 'USD',
 
     
   }
