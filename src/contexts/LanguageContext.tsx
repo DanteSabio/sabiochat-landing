@@ -618,10 +618,10 @@ const translations = {
     'testimonials.sergiomastrangelo.company': 'Microglobal',
     'testimonials.sergiomastrangelo.content': 'We connected SabioChat to our API and now our team accesses real-time stock and product information, all in one place. It sped up decision-making and improved support.',
 
-    'testimonials.ana.name': 'Ana Martínez',
-    'testimonials.ana.role': 'Digital Coordinator',
-    'testimonials.ana.company': 'GobTech',
-    'testimonials.ana.content': 'The implementation was surprisingly simple. In one week we had the system running and processing citizen queries efficiently.',
+    'testimonials.enriquesolchman.name': 'Enrique Solchman',
+    'testimonials.enriquesolchman.role': '.',
+    'testimonials.enriquesolchman.company': '.',
+    'testimonials.enriquesolchman.content': '.',
 
 
      // Footer
