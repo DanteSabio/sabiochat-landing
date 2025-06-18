@@ -38,24 +38,24 @@ const UseCasesSection = () => {
 
   const testimonials = [
     {
-      name: t('testimonials.maria.name'),
-      role: t('testimonials.maria.role'),
-      company: t('testimonials.maria.company'),
-      content: t('testimonials.maria.content'),
+      name: t('testimonials.sergiocorizzo.name'),
+      role: t('testimonials.sergiocorizzo.role'),
+      company: t('testimonials.sergiocorizzo.company'),
+      content: t('testimonials.sergiocorizzo.content'),
       delay: 0.1
     },
     {
-      name: t('testimonials.carlos.name'),
-      role: t('testimonials.carlos.role'),
-      company: t('testimonials.carlos.company'),
-      content: t('testimonials.carlos.content'),
+      name: t('testimonials.sergiomastrangelo.name'),
+      role: t('testimonials.sergiomastrangelo.role'),
+      company: t('testimonials.sergiomastrangelo.company'),
+      content: t('testimonials.sergiomastrangelo.content'),
       delay: 0.2
     },
     {
-      name: t('testimonials.ana.name'),
-      role: t('testimonials.ana.role'),
-      company: t('testimonials.ana.company'),
-      content: t('testimonials.ana.content'),
+      name: t('testimonials.enriquesolchman.name'),
+      role: t('testimonials.enriquesolchman.role'),
+      company: t('testimonials.enriquesolchman.company'),
+      content: t('testimonials.enriquesolchman.content'),
       delay: 0.3
     }
   ]
@@ -139,6 +139,7 @@ const UseCasesSection = () => {
         </motion.p>
       </div>
 
+      {/* Grid de testimonios con altura uniforme */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {testimonials.map((testimonial, index) => (
           <TestimonialCard
