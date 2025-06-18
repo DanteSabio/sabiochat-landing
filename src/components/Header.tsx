@@ -69,9 +69,9 @@ const Header = () => {
               <Globe className="w-4 h-4 mr-1" />
               {language.toUpperCase()}
             </button>
-            <button className="text-gray-700 hover:text-indigo-600 px-4 py-2 text-sm font-medium transition-colors">
+            <a href="https://calendly.com/hola-sabiochat/30min?month=2024-11" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-indigo-600 px-4 py-2 text-sm font-medium transition-colors">
               {t('nav.login')}
-            </button>
+            </a>
             <button className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-6 py-2 rounded-lg text-sm font-medium hover:from-indigo-700 hover:to-purple-700 transition-all duration-200 shadow-lg hover:shadow-xl">
               <a href="https://calendly.com/hola-sabiochat/30min?month=2024-11" target="_blank" rel="noopener noreferrer">
                 {t('nav.tryFree')}
@@ -120,9 +120,9 @@ const Header = () => {
                   {language.toUpperCase()}
                 </button>
                 <div className="flex space-x-2">
-                  <button className="text-gray-700 hover:text-indigo-600 px-4 py-2 text-sm font-medium">
+                  <a href="https://calendly.com/hola-sabiochat/30min?month=2024-11" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-indigo-600 px-4 py-2 text-sm font-medium">
                     {t('nav.login')}
-                  </button>
+                  </a>
                   <button className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-4 py-2 rounded-lg text-sm font-medium">
                     <a href="https://calendly.com/hola-sabiochat/30min?month=2024-11" target="_blank" rel="noopener noreferrer">
                       {t('nav.tryFree')}
