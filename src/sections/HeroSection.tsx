@@ -20,7 +20,7 @@ const HeroSection = () => {
             transition={{ duration: 0.8 }}
             className="space-y-6"
           >
-            <div className="inline-flex items-center px-4 py-2 bg-indigo-100 border border-indigo-200 rounded-full text-indigo-700 text-sm font-medium">
+            <div className="inline-flex items-center px-4 py-2 bg-indigo-100 border border-indigo-200 rounded-full text-indigo-700 text-sm font-medium mt-4 sm:mt-0">
               {t('hero.badge')}
             </div>
 
