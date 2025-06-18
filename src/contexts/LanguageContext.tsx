@@ -211,102 +211,226 @@ const translations = {
     'footer.location': 'Buenos Aires, Argentina',
     'footer.copyright': '© 2025 SabioChat. Todos los derechos reservados.',
     'footer.privacy': 'Política de privacidad',
-    'footer.terms': 'Términos de servicio',
+    'footer.terms': 'Términos y condiciones',
     'footer.cookies': 'Cookies',
     
 
-// Configuración de formato
-'locale': 'es-AR',
-'currencyCode': 'ARS',
+    // Configuración de formato
+    'locale': 'es-AR',
+    'currencyCode': 'ARS',
 
-// ROI Calculator - Títulos principales
-'roi.title': 'Calcula tu',
-'roi.titleHighlight': 'ROI con SabioChat',
-'roi.subtitle': 'Descubre el impacto financiero que SabioChat puede tener en tu empresa',
+    // ROI Calculator - Títulos principales
+    'roi.title': 'Calcula tu',
+    'roi.titleHighlight': 'ROI con SabioChat',
+    'roi.subtitle': 'Descubre el impacto financiero que SabioChat puede tener en tu empresa',
 
-// ROI Calculator - Navegación de pasos
-'roi.step': 'Paso',
-'roi.of': 'de',
-'roi.complete': 'completado',
-'roi.continue': 'Continuar',
-'roi.back': 'Atrás',
-'roi.improvement': 'mejora',
-'roi.perYear': 'por año',
+    // ROI Calculator - Navegación de pasos
+    'roi.step': 'Paso',
+    'roi.of': 'de',
+    'roi.complete': 'completado',
+    'roi.continue': 'Continuar',
+    'roi.back': 'Atrás',
+    'roi.improvement': 'mejora',
+    'roi.perYear': 'por año',
 
-// Paso 1 - Casos de uso
-'roi.step1.title': 'Selecciona tus casos de uso',
-'roi.step1.subtitle': 'Elige las áreas donde SabioChat puede impactar tu negocio',
-'roi.useCase1.title': 'Atención al Cliente',
-'roi.useCase1.description': 'Automatiza respuestas y resuelve consultas 24/7',
-'roi.useCase2.title': 'Soporte de Ventas',
-'roi.useCase2.description': 'Acelera el proceso de ventas con información instantánea',
-'roi.useCase3.title': 'Operaciones Internas',
-'roi.useCase3.description': 'Optimiza procesos internos y reduce costos operativos',
-'roi.useCase4.title': 'Recursos Humanos',
-'roi.useCase4.description': 'Automatiza consultas de RRHH y mejora la experiencia del empleado',
+    // Paso 1 - Casos de uso
+    'roi.step1.title': 'Selecciona tus casos de uso',
+    'roi.step1.subtitle': 'Elige las áreas donde SabioChat puede impactar tu negocio',
+    'roi.useCase1.title': 'Atención al Cliente',
+    'roi.useCase1.description': 'Automatiza respuestas y resuelve consultas 24/7',
+    'roi.useCase2.title': 'Soporte de Ventas',
+    'roi.useCase2.description': 'Acelera el proceso de ventas con información instantánea',
+    'roi.useCase3.title': 'Operaciones Internas',
+    'roi.useCase3.description': 'Optimiza procesos internos y reduce costos operativos',
+    'roi.useCase4.title': 'Recursos Humanos',
+    'roi.useCase4.description': 'Automatiza consultas de RRHH y mejora la experiencia del empleado',
 
-// Paso 2 - Datos de la empresa
-'roi.step2.title': 'Cuéntanos sobre tu empresa',
-'roi.step2.subtitle': 'Ingresa algunos datos básicos para personalizar tu cálculo',
-'roi.yourData': 'Ingresa los datos de tu empresa',
-'roi.input.employees': 'Número de empleados',
-'roi.placeholder.employees': 'Ej: 50',
-'roi.input1Label': 'Costos operativos mensuales (ARS)',
-'roi.input1Placeholder': 'Ej: 500000',
-'roi.input2Label': 'Tiempo promedio de respuesta actual (minutos)',
-'roi.input2Placeholder': 'Ej: 15',
-'roi.input3Label': 'Horas mensuales buscando información',
-'roi.input3Placeholder': 'Ej: 80',
-'roi.input4Label': 'Ventas mensuales promedio (ARS)',
-'roi.input4Placeholder': 'Ej: 2000000',
-'roi.input.supportTickets': 'Tickets de soporte mensuales',
-'roi.placeholder.supportTickets': 'Ej: 200',
+    // Paso 2 - Datos de la empresa
+    'roi.step2.title': 'Cuéntanos sobre tu empresa',
+    'roi.step2.subtitle': 'Ingresa algunos datos básicos para personalizar tu cálculo',
+    'roi.yourData': 'Ingresa los datos de tu empresa',
+    'roi.input.employees': 'Número de empleados',
+    'roi.placeholder.employees': 'Ej: 50',
+    'roi.input1Label': 'Costos operativos mensuales (ARS)',
+    'roi.input1Placeholder': 'Ej: 500000',
+    'roi.input2Label': 'Tiempo promedio de respuesta actual (minutos)',
+    'roi.input2Placeholder': 'Ej: 15',
+    'roi.input3Label': 'Horas mensuales buscando información',
+    'roi.input3Placeholder': 'Ej: 80',
+    'roi.input4Label': 'Ventas mensuales promedio (ARS)',
+    'roi.input4Placeholder': 'Ej: 2000000',
+    'roi.input.supportTickets': 'Tickets de soporte mensuales',
+    'roi.placeholder.supportTickets': 'Ej: 200',
 
-// Paso 3 - Vista previa del impacto
-'roi.step3.title': 'Impacto potencial de SabioChat',
-'roi.step3.subtitle': 'Basado en estudios de empresas que implementaron IA empresarial',
+    // Paso 3 - Vista previa del impacto
+    'roi.step3.title': 'Impacto potencial de SabioChat',
+    'roi.step3.subtitle': 'Basado en estudios de empresas que implementaron IA empresarial',
 
-// Paso 4 - Resultados
-'roi.step4.title': 'Tu potencial de ROI',
-'roi.step4.subtitle': 'Estos son los resultados proyectados para tu empresa',
-'roi.calculateButton': 'Calcular mi ROI',
-'roi.yourPotential': 'Tu potencial con SabioChat',
+    // Paso 4 - Resultados
+    'roi.step4.title': 'Tu potencial de ROI',
+    'roi.step4.subtitle': 'Estos son los resultados proyectados para tu empresa',
+    'roi.calculateButton': 'Calcular mi ROI',
+    'roi.yourPotential': 'Tu potencial con SabioChat',
 
-// Resultados específicos
-'roi.result1Title': 'Ahorro en costos operativos',
-'roi.result1Description': '60% de reducción mensual',
-'roi.result2Title': 'Nuevo tiempo de respuesta',
-'roi.result2Description': '85% más rápido',
-'roi.result3Title': 'Tiempo ahorrado en búsquedas',
-'roi.result3Description': '90% menos tiempo buscando',
-'roi.result4Title': 'Incremento en ventas',
-'roi.result4Description': '20% de aumento mensual',
-'roi.result5Title': 'Aumento de productividad',
-'roi.result5Description': 'Mejora en la eficiencia del equipo',
-'roi.totalAnnualSavingsTitle': 'Ahorro total anual proyectado',
-'roi.totalAnnualSavingsDescription': 'Suma de ahorros y ganancias adicionales',
+    // Resultados específicos
+    'roi.result1Title': 'Ahorro en costos operativos',
+    'roi.result1Description': '60% de reducción mensual',
+    'roi.result2Title': 'Nuevo tiempo de respuesta',
+    'roi.result2Description': '85% más rápido',
+    'roi.result3Title': 'Tiempo ahorrado en búsquedas',
+    'roi.result3Description': '90% menos tiempo buscando',
+    'roi.result4Title': 'Incremento en ventas',
+    'roi.result4Description': '20% de aumento mensual',
+    'roi.result5Title': 'Aumento de productividad',
+    'roi.result5Description': 'Mejora en la eficiencia del equipo',
+    'roi.totalAnnualSavingsTitle': 'Ahorro total anual proyectado',
+    'roi.totalAnnualSavingsDescription': 'Suma de ahorros y ganancias adicionales',
 
-// Unidades
-'roi.minutes': 'minutos',
-'roi.hours': 'horas',
+    // Unidades
+    'roi.minutes': 'minutos',
+    'roi.hours': 'horas',
 
-// Impacto de IA - Métricas
-'roi.impact.title': 'Impacto de integrar IA empresarial como SabioChat',
-'roi.impact.metric1': 'Reducción en el tiempo promedio de respuesta a clientes y empleados',
-'roi.impact.metric2': 'Ahorro en costos operativos al automatizar consultas repetitivas y tareas manuales',
-'roi.impact.metric3': 'Disminución del tiempo de búsqueda de información crítica en documentos internos',
-'roi.impact.metric4': 'Aumento en la productividad de los equipos al liberar tiempo operativo',
-'roi.impact.metric5': 'Incremento en ventas al mejorar la atención, la velocidad y la personalización en la experiencia del cliente',
+    // Impacto de IA - Métricas
+    'roi.impact.title': 'Impacto de integrar IA empresarial como SabioChat',
+    'roi.impact.metric1': 'Reducción en el tiempo promedio de respuesta a clientes y empleados',
+    'roi.impact.metric2': 'Ahorro en costos operativos al automatizar consultas repetitivas y tareas manuales',
+    'roi.impact.metric3': 'Disminución del tiempo de búsqueda de información crítica en documentos internos',
+    'roi.impact.metric4': 'Aumento en la productividad de los equipos al liberar tiempo operativo',
+    'roi.impact.metric5': 'Incremento en ventas al mejorar la atención, la velocidad y la personalización en la experiencia del cliente',
 
-// CTA Final
-'roi.cta.title': '¿Listo para transformar tu negocio?',
-'roi.cta.subtitle': 'Agenda una demo personalizada y descubre cómo SabioChat puede generar estos resultados en tu empresa',
-'roi.cta.schedule': 'Agendar demo',
-'roi.cta.recalculate': 'Recalcular ROI',
+    // CTA Final
+    'roi.cta.title': '¿Listo para transformar tu negocio?',
+    'roi.cta.subtitle': 'Agenda una demo personalizada y descubre cómo SabioChat puede generar estos resultados en tu empresa',
+    'roi.cta.schedule': 'Agendar demo',
+    'roi.cta.recalculate': 'Recalcular ROI',
 
-// Disclaimer
-'roi.sourceDisclaimer': 'Estas métricas se basan en estudios de empresas que implementaron IA generativa integrada a sus sistemas (McKinsey, IBM, Salesforce, PwC), junto con resultados obtenidos por nuestros clientes.',
+    // Disclaimer
+    'roi.sourceDisclaimer': 'Estas métricas se basan en estudios de empresas que implementaron IA generativa integrada a sus sistemas (McKinsey, IBM, Salesforce, PwC), junto con resultados obtenidos por nuestros clientes.',
 
+    // Terms and Conditions - Configuración
+    'terms.title': 'Términos y Condiciones',
+    'terms.subtitle': 'Términos que regulan el uso de la plataforma SabioChat',
+    'terms.lastUpdated': 'Última actualización',
+    'terms.tableOfContents': 'Índice de contenidos',
+
+    // Section titles
+    'terms.section1.title': 'Aceptación de los Términos',
+    'terms.section2.title': 'Definiciones',
+    'terms.section3.title': 'Descripción del Servicio',
+    'terms.section4.title': 'Condiciones de Uso y Registro',
+    'terms.section5.title': 'Obligaciones del Usuario',
+    'terms.section6.title': 'Contratación y Forma de Pago',
+    'terms.section7.title': 'Limitaciones y Disponibilidad del Servicio',
+    'terms.section8.title': 'Propiedad Intelectual',
+    'terms.section9.title': 'Privacidad y Tratamiento de Datos',
+    'terms.section10.title': 'Exclusión de Responsabilidad',
+    'terms.section11.title': 'Funcionamiento y Supervisión',
+    'terms.section12.title': 'Suspensión o Cancelación del Servicio',
+    'terms.section13.title': 'Privacidad y Confidencialidad',
+    'terms.section14.title': 'Uso Prohibido',
+    'terms.section15.title': 'No Exclusividad',
+    'terms.section16.title': 'Independencia de las Partes',
+    'terms.section17.title': 'Ley Aplicable y Jurisdicción',
+    'terms.section18.title': 'Contacto',
+
+    // Section 1 - Aceptación de los Términos
+    'terms.section1.p1': 'El presente documento establece los términos y condiciones (en adelante, los "Términos") que regulan el acceso y uso del servicio digital denominado SabioChat (en adelante, el "Servicio" o la "Plataforma").',
+    'terms.section1.p2': 'POR FAVOR LEA DETENIDAMENTE LOS TÉRMINOS Y CONDICIONES.',
+    'terms.section1.p3': 'Al registrarse, acceder o utilizar la Plataforma, el Usuario declara ser mayor de 18 años, haber leído, comprendido y aceptado en forma expresa e inequívoca los presentes Términos. Si no está de acuerdo con alguno de ellos, deberá abstenerse de utilizar el Servicio.',
+    'terms.section1.p4': 'El Prestador se reserva el derecho de modificar en cualquier momento los presentes Términos, siendo responsabilidad del Usuario consultar periódicamente su contenido. Las modificaciones entrarán en vigor desde su publicación en la Plataforma, salvo que se indique expresamente lo contrario.',
+
+    // Section 2 - Definiciones
+    'terms.section2.intro': 'A los fines de este documento, se entenderá por:',
+    'terms.section2.sabiochat.title': 'SABIOCHAT o EL PRESTADOR:',
+    'terms.section2.sabiochat.content': 'la plataforma de asistentes virtuales personalizados desarrollada y operada por SABIOCHAT soportada por OpenAI que permite a los clientes crear, entrenar y gestionar asistentes automatizados para interactuar con sus propios usuarios o clientes.',
+    'terms.section2.client.title': 'EL CLIENTE:',
+    'terms.section2.client.content': 'toda persona humana o jurídica que contrata los servicios de SABIOCHAT para acceder a la plataforma y configurarla según sus necesidades.',
+    'terms.section2.users.title': 'USUARIOS:',
+    'terms.section2.users.content': 'incluye a los clientes, usuarios o terceros que interactúan con los asistentes virtuales desarrollados y operados por EL CLIENTE en la plataforma SABIOCHAT.',
+    'terms.section2.platform.title': 'PLATAFORMA:',
+    'terms.section2.platform.content': 'el entorno digital proporcionado por SABIOCHAT accesible mediante internet, que incluye el panel de control, las funciones de entrenamiento, edición, integración y despliegue de los asistentes virtuales.',
+
+    // Section 3 - Descripción del Servicio
+    'terms.section3.p1': 'SabioChat es una plataforma digital que permite la creación, personalización y utilización de asistentes virtuales (chatbots) por parte de usuarios registrados, con el objeto de brindar atención, soporte o información automatizada a terceros, en distintos contextos comerciales o de servicios.',
+    'terms.section3.p2': 'El Servicio integra tecnología de inteligencia artificial provista por terceros (OpenAI), cuya disponibilidad, funcionamiento y resultados pueden depender de factores externos ajenos al control del Prestador.',
+    'terms.section3.p3': 'Al utilizar los Servicios de SabioChat Ud. está aceptando los términos y condiciones de OpenAI. Por favor lea los mismos con detenimiento.',
+    'terms.section3.p4': 'SABIOCHAT no presta servicios de atención al cliente, ni podrá interpretarse en el sentido que reemplaza asesoramiento legal, médico, técnico ni de ningún otro tipo mediante los asistentes virtuales.',
+    'terms.section3.openaiLink': 'https://openai.com/es-ES/policies/terms-of-use/',
+    'terms.section3.linkText': 'Términos y condiciones de OpenAI',
+
+    // Section 4 - Condiciones de Uso y Registro
+    'terms.section4.p1': 'Para utilizar el Servicio, el Usuario deberá ser mayor de edad y contar con plena capacidad legal para contratar y asimismo registrarse creando la cuenta e ingresando los datos que le serán requeridos.',
+    'terms.section4.p2': 'El registro implica la creación de una cuenta personal mediante la cual el Usuario podrá acceder a las funcionalidades del sistema.',
+    'terms.section4.p3': 'El Usuario se obliga a brindar información veraz, completa y actualizada al momento del registro, y a mantenerla en tal estado mientras dure la relación.',
+    'terms.section4.p4': 'El acceso a la cuenta es personal e intransferible. El Usuario será el único responsable de toda acción realizada desde su cuenta, debiendo mantener la confidencialidad de sus credenciales y contraseña.',
+    'terms.section4.p5': 'En caso de detectar un uso no autorizado o cualquier otra violación de seguridad, el Usuario deberá notificarlo de inmediato al Prestador.',
+
+    // Section 5 - Obligaciones del Usuario
+    'terms.section5.intro': 'El Usuario se obliga a utilizar la Plataforma conforme a la normativa vigente, la moral, el orden público y los presentes Términos. En particular, se compromete a:',
+    'terms.section5.item1': 'No utilizar el Servicio con fines ilícitos, engañosos, difamatorios, ofensivos o que violen derechos de terceros.',
+    'terms.section5.item2': 'Abstenerse de utilizar los asistentes virtuales para proporcionar asesoramiento médico, legal, financiero o de cualquier otra índole profesional que requiera habilitación, sin contar con las autorizaciones correspondientes.',
+    'terms.section5.item3': 'No emplear el Servicio para difundir contenidos que infrinjan derechos de propiedad intelectual, privacidad, imagen o confidencialidad.',
+    'terms.section5.item4': 'No intentar descompilar, desensamblar, modificar, reproducir, adaptar, traducir, arrendar, vender o crear obras derivadas del software que sustenta la Plataforma.',
+    'terms.section5.item5': 'Asumir la plena responsabilidad por los contenidos, respuestas o resultados generados por sus asistentes virtuales, eximiendo al Prestador de cualquier tipo de responsabilidad derivada de su utilización.',
+    'terms.section5.conclusion': 'La presente enumeración es enunciativa pero no taxativa debiendo abstenerse el Usuario de cualquier conducta que resulte violatoria de las normas vigentes.',
+
+    // Section 6 - Contratación y Forma de Pago
+    'terms.section6.p1': 'EL CLIENTE podrá contratar el servicio a través de la aplicación o mediante acuerdo particular.',
+    'terms.section6.p2': 'El precio, condiciones de pago, límites de uso y características del plan contratado serán los especificados en la propuesta comercial, orden de compra o contratación electrónica.',
+    'terms.section6.p3': 'El pago podrá efectuarse por los medios habilitados en la plataforma.',
+    'terms.section6.p4': 'En caso de mora en los pagos, SABIOCHAT podrá suspender total o parcialmente el acceso a la plataforma y a los asistentes desplegados, tanto por parte de EL CLIENTE como por parte de sus USUARIOS FINALES, hasta la regularización del saldo adeudado.',
+    'terms.section6.p5': 'La suspensión será notificada mediante correo electrónico a la dirección registrada por EL CLIENTE.',
+
+    // Section 7 - Limitaciones y Disponibilidad del Servicio
+    'terms.section7.p1': 'En ningún caso y bajo ningún concepto podrá interpretarse que el Prestador garantice un servicio sin errores y/o interrupciones y/o fallos de disponibilidad.',
+    'terms.section7.p2': 'Por el contrario los usuarios reconocen y aceptan expresamente que la Plataforma puede experimentar errores y/o interrupciones y/o fallos de disponibilidad debido a tareas de mantenimiento, actualizaciones o causas ajenas al control del Prestador, incluyendo aquellas derivadas de servicios provistos por terceros como OpenAI.',
+    'terms.section7.p3': 'Asimismo, el Prestador no garantiza que los resultados, respuestas o contenidos generados por los asistentes virtuales sean verídicos, precisos, completos ni apropiados para fines específicos, ni que satisfagan necesidades particulares del Usuario o de sus clientes los que deberán ser revisados y supervisados por los Usuarios.',
+
+    // Section 8 - Propiedad Intelectual
+    'terms.section8.p1': 'Todo el contenido disponible en la Plataforma, incluyendo textos, diseños, logos, interfaces, estructuras de navegación, código fuente y bases de datos, es propiedad del Prestador o se encuentra debidamente licenciado, y se encuentra protegido por las leyes de propiedad intelectual aplicables.',
+    'terms.section8.p2': 'El Usuario conserva los derechos sobre los contenidos originales que incorpore a sus asistentes virtuales (por ejemplo, textos personalizados o configuraciones), pero otorga al Prestador una licencia gratuita, no exclusiva y revocable para utilizarlos únicamente con el fin de operar el Servicio.',
+
+    // Section 9 - Privacidad y Tratamiento de Datos
+    'terms.section9.p1': 'El tratamiento de los datos personales de los Usuarios se realiza conforme a la Política de Privacidad de SabioChat, que forma parte integral de estos Términos.',
+    'terms.section9.p2': 'El Usuario se compromete a utilizar el Servicio en cumplimiento de la normativa vigente en materia de protección de datos personales, en especial si incorpora información de terceros en sus interacciones.',
+    'terms.section9.p3': 'Será responsabilidad exclusiva del Usuario obtener los consentimientos necesarios para el tratamiento de datos personales por medio de los asistentes virtuales, cuando corresponda.',
+
+    // Section 10 - Exclusión de Responsabilidad
+    'terms.section10.p1': 'SABIOCHAT no garantiza que el servicio sea ininterrumpido o libre de errores, aunque adoptará las medidas razonables para asegurar su estabilidad.',
+    'terms.section10.p2': 'SABIOCHAT no será responsable por los daños y perjuicios directos o indirectos que pudieran derivarse del uso de la plataforma, ni por las decisiones que EL CLIENTE o los USUARIOS FINALES adopten en base a las respuestas de los asistentes virtuales.',
+    'terms.section10.p3': 'SABIOCHAT se limita a brindar una infraestructura tecnológica que procesa datos mediante modelos de inteligencia artificial.',
+    'terms.section10.p4': 'EL CLIENTE es el único responsable por la veracidad, legalidad y licitud de los contenidos que incorpora, entrena o transmite mediante sus asistentes virtuales.',
+    'terms.section10.warning': 'El Servicio se presta "tal como está" y "según disponibilidad", sin garantías de ningún tipo, expresas o implícitas.',
+    'terms.section10.p5': 'Las limitaciones a la responsabilidad de SABIOCHAT establecidas en el presente y en otros apartados de estos Términos y Condiciones alcanzan a los directores, gerentes, administradores, representantes, funcionarios, empleados y asesores de SABIOCHAT.',
+
+    // Section 11 - Funcionamiento y Supervisión
+    'terms.section11.content': 'SABIOCHAT pone a disposición de EL CLIENTE herramientas de administración, monitoreo y edición de sus asistentes. De allí que las interacciones, conversaciones y contenidos procesados en la plataforma podrán estar supervisados de acuerdo con la necesidad del CLIENTE.',
+
+    // Section 12 - Suspensión o Cancelación del Servicio
+    'terms.section12.p1': 'El Prestador podrá, a su sola discreción y sin necesidad de preaviso, suspender o cancelar la cuenta del Usuario que incurra en violaciones a los presentes Términos, cause perjuicios a la Plataforma o incurra en actividades que afecten derechos de terceros o infrinjan la ley.',
+    'terms.section12.p2': 'Asimismo, el Prestador se reserva el derecho de discontinuar total o parcialmente el Servicio en cualquier momento, debiendo notificar al Usuario con razonable antelación.',
+
+    // Section 13 - Privacidad y Confidencialidad
+    'terms.section13.p1': 'Se deja expresamente aclarado que SABIOCHAT no almacena de forma permanente los contenidos que EL CLIENTE y/o los USUARIOS FINALES carguen, ingresen o transmitan mediante la plataforma.',
+    'terms.section13.p2': 'La información se procesa de forma temporal para generar respuestas automatizadas, pero la misma no queda registrada ni es accesible para su recuperación posterior.',
+    'terms.section13.p3': 'Por lo tanto, SABIOCHAT no podrá proporcionar copias ni respaldos de lo ingresado por EL CLIENTE siendo responsabilidad exclusiva de EL CLIENTE conservar sus contenidos fuera de la plataforma.',
+    'terms.section13.p4': 'Sin perjuicio de lo expuesto, se deja constancia que al utilizar nuestro servicio, usted nos da consentimiento a recolectar y utilizar su información conforme a lo establecido en nuestra Política de Privacidad.',
+
+    // Section 14 - Uso Prohibido
+    'terms.section14.content': 'EL CLIENTE se obliga a no utilizar la plataforma para actividades ilegales, difamatorias, discriminatorias, ofensivas o que violen derechos de terceros. Cualquier uso inadecuado podrá implicar la suspensión o cancelación del servicio, sin derecho a reembolso.',
+
+    // Section 15 - No Exclusividad
+    'terms.section15.content': 'El presente contrato celebrado, no implica ningún tipo de exclusividad para ninguna de las partes.',
+
+    // Section 16 - Independencia de las Partes
+    'terms.section16.content': 'La utilización del Servicio no implica la existencia de ningún tipo de relación laboral, societaria, de agencia, mandato o franquicia entre el Prestador y el Usuario. Cada parte actúa en forma independiente y asume sus propios riesgos y responsabilidades.',
+
+    // Section 17 - Ley Aplicable y Jurisdicción
+    'terms.section17.content': 'Los presentes Términos se regirán e interpretarán conforme a las leyes de la República Argentina. Para cualquier controversia derivada de su interpretación, validez, ejecución o cumplimiento, las partes se someten a la jurisdicción de los tribunales ordinarios con asiento en la Ciudad Autónoma de Buenos Aires, renunciando a cualquier otro fuero o jurisdicción que pudiera corresponderles.',
+
+    // Section 18 - Contacto
+    'terms.section18.content': 'Para cualquier consulta relacionada con estos Términos y Condiciones, el Usuario podrá contactarse con el Prestador a través de los siguientes medios:',
+    'terms.contact.email': 'Correo electrónico',
 
 
   },
@@ -554,6 +678,131 @@ const translations = {
     // Currency format
     'locale': 'en-US',
     'currencyCode': 'USD',
+
+    // Terms and Conditions - Configuration
+    'terms.title': 'Terms and Conditions',
+    'terms.subtitle': 'Terms governing the use of the SabioChat platform',
+    'terms.lastUpdated': 'Last updated',
+    'terms.tableOfContents': 'Table of Contents',
+
+    // Section titles
+    'terms.section1.title': 'Acceptance of Terms',
+    'terms.section2.title': 'Definitions',
+    'terms.section3.title': 'Service Description',
+    'terms.section4.title': 'Usage Conditions and Registration',
+    'terms.section5.title': 'User Obligations',
+    'terms.section6.title': 'Contracting and Payment Method',
+    'terms.section7.title': 'Service Limitations and Availability',
+    'terms.section8.title': 'Intellectual Property',
+    'terms.section9.title': 'Privacy and Data Processing',
+    'terms.section10.title': 'Liability Exclusion',
+    'terms.section11.title': 'Operation and Supervision',
+    'terms.section12.title': 'Service Suspension or Cancellation',
+    'terms.section13.title': 'Privacy and Confidentiality',
+    'terms.section14.title': 'Prohibited Use',
+    'terms.section15.title': 'Non-Exclusivity',
+    'terms.section16.title': 'Independence of Parties',
+    'terms.section17.title': 'Applicable Law and Jurisdiction',
+    'terms.section18.title': 'Contact',
+
+    // Section 1 - Acceptance of Terms
+    'terms.section1.p1': 'This document establishes the terms and conditions (hereinafter, the "Terms") that govern access to and use of the digital service called SabioChat (hereinafter, the "Service" or the "Platform").',
+    'terms.section1.p2': 'PLEASE READ THE TERMS AND CONDITIONS CAREFULLY.',
+    'terms.section1.p3': 'By registering, accessing or using the Platform, the User declares to be over 18 years of age, to have read, understood and expressly and unequivocally accepted these Terms. If you do not agree with any of them, you must refrain from using the Service.',
+    'terms.section1.p4': 'The Provider reserves the right to modify these Terms at any time, and it is the User\'s responsibility to periodically consult their content. Modifications will take effect from their publication on the Platform, unless expressly stated otherwise.',
+
+    // Section 2 - Definitions
+    'terms.section2.intro': 'For the purposes of this document, the following shall be understood as:',
+    'terms.section2.sabiochat.title': 'SABIOCHAT or THE PROVIDER:',
+    'terms.section2.sabiochat.content': 'the personalized virtual assistants platform developed and operated by SABIOCHAT supported by OpenAI that allows clients to create, train and manage automated assistants to interact with their own users or customers.',
+    'terms.section2.client.title': 'THE CLIENT:',
+    'terms.section2.client.content': 'any natural or legal person who contracts SABIOCHAT services to access the platform and configure it according to their needs.',
+    'terms.section2.users.title': 'USERS:',
+    'terms.section2.users.content': 'includes clients, users or third parties who interact with virtual assistants developed and operated by THE CLIENT on the SABIOCHAT platform.',
+    'terms.section2.platform.title': 'PLATFORM:',
+    'terms.section2.platform.content': 'the digital environment provided by SABIOCHAT accessible via internet, which includes the control panel, training, editing, integration and deployment functions of virtual assistants.',
+
+    // Section 3 - Service Description
+    'terms.section3.p1': 'SabioChat is a digital platform that allows the creation, customization and use of virtual assistants (chatbots) by registered users, with the purpose of providing automated attention, support or information to third parties, in different commercial or service contexts.',
+    'terms.section3.p2': 'The Service integrates artificial intelligence technology provided by third parties (OpenAI), whose availability, operation and results may depend on external factors beyond the Provider\'s control.',
+    'terms.section3.p3': 'By using SabioChat Services you are accepting OpenAI\'s terms and conditions. Please read them carefully.',
+    'terms.section3.openaiLink': 'https://openai.com/policies/terms-of-use/',
+    'terms.section3.linkText': 'OpenAI Terms and Conditions',
+    'terms.section3.p4': 'SABIOCHAT does not provide customer service, nor can it be interpreted as replacing legal, medical, technical or any other type of advice through virtual assistants.',
+
+    // Section 4 - Usage Conditions and Registration
+    'terms.section4.p1': 'To use the Service, the User must be of legal age and have full legal capacity to contract and also register by creating an account and entering the data that will be required.',
+    'terms.section4.p2': 'Registration involves creating a personal account through which the User can access the system functionalities.',
+    'terms.section4.p3': 'The User undertakes to provide truthful, complete and updated information at the time of registration, and to maintain it in such state while the relationship lasts.',
+    'terms.section4.p4': 'Access to the account is personal and non-transferable. The User will be solely responsible for all actions performed from their account, and must maintain the confidentiality of their credentials and password.',
+    'terms.section4.p5': 'In case of detecting unauthorized use or any other security violation, the User must notify the Provider immediately.',
+
+    // Section 5 - User Obligations
+    'terms.section5.intro': 'The User undertakes to use the Platform in accordance with current regulations, morality, public order and these Terms. In particular, they commit to:',
+    'terms.section5.item1': 'Not use the Service for illicit, deceptive, defamatory, offensive purposes or that violate third party rights.',
+    'terms.section5.item2': 'Refrain from using virtual assistants to provide medical, legal, financial or any other professional advice that requires authorization, without having the corresponding authorizations.',
+    'terms.section5.item3': 'Not use the Service to disseminate content that infringes intellectual property, privacy, image or confidentiality rights.',
+    'terms.section5.item4': 'Not attempt to decompile, disassemble, modify, reproduce, adapt, translate, lease, sell or create derivative works of the software that supports the Platform.',
+    'terms.section5.item5': 'Assume full responsibility for the content, responses or results generated by their virtual assistants, exempting the Provider from any type of responsibility derived from their use.',
+    'terms.section5.conclusion': 'This enumeration is enunciative but not exhaustive, and the User must refrain from any conduct that violates current regulations.',
+
+    // Section 6 - Contracting and Payment Method
+    'terms.section6.p1': 'THE CLIENT may contract the service through the application or through particular agreement.',
+    'terms.section6.p2': 'The price, payment conditions, usage limits and characteristics of the contracted plan will be those specified in the commercial proposal, purchase order or electronic contracting.',
+    'terms.section6.p3': 'Payment may be made through the means enabled on the platform.',
+    'terms.section6.p4': 'In case of payment delays, SABIOCHAT may suspend totally or partially access to the platform and deployed assistants, both by THE CLIENT and by their END USERS, until regularization of the outstanding balance.',
+    'terms.section6.p5': 'Suspension will be notified by email to the address registered by THE CLIENT.',
+
+    // Section 7 - Service Limitations and Availability
+    'terms.section7.p1': 'Under no circumstances and under no concept may it be interpreted that the Provider guarantees a service without errors and/or interruptions and/or availability failures.',
+    'terms.section7.p2': 'On the contrary, users expressly recognize and accept that the Platform may experience errors and/or interruptions and/or availability failures due to maintenance tasks, updates or causes beyond the Provider\'s control, including those derived from services provided by third parties such as OpenAI.',
+    'terms.section7.p3': 'Likewise, the Provider does not guarantee that the results, responses or content generated by virtual assistants are truthful, accurate, complete or appropriate for specific purposes, nor that they satisfy particular needs of the User or their clients, which must be reviewed and supervised by Users.',
+
+    // Section 8 - Intellectual Property
+    'terms.section8.p1': 'All content available on the Platform, including texts, designs, logos, interfaces, navigation structures, source code and databases, is owned by the Provider or is duly licensed, and is protected by applicable intellectual property laws.',
+    'terms.section8.p2': 'The User retains rights over original content they incorporate into their virtual assistants (for example, custom texts or configurations), but grants the Provider a free, non-exclusive and revocable license to use them solely for the purpose of operating the Service.',
+
+    // Section 9 - Privacy and Data Processing
+    'terms.section9.p1': 'The processing of Users\' personal data is carried out in accordance with SabioChat\'s Privacy Policy, which forms an integral part of these Terms.',
+    'terms.section9.p2': 'The User undertakes to use the Service in compliance with current regulations on personal data protection, especially if they incorporate third-party information in their interactions.',
+    'terms.section9.p3': 'It will be the User\'s exclusive responsibility to obtain the necessary consents for the processing of personal data through virtual assistants, when applicable.',
+
+    // Section 10 - Liability Exclusion
+    'terms.section10.p1': 'SABIOCHAT does not guarantee that the service will be uninterrupted or error-free, although it will adopt reasonable measures to ensure its stability.',
+    'terms.section10.p2': 'SABIOCHAT will not be responsible for direct or indirect damages that may arise from the use of the platform, nor for decisions that THE CLIENT or END USERS adopt based on virtual assistant responses.',
+    'terms.section10.p3': 'SABIOCHAT is limited to providing a technological infrastructure that processes data through artificial intelligence models.',
+    'terms.section10.p4': 'THE CLIENT is solely responsible for the veracity, legality and lawfulness of the content they incorporate, train or transmit through their virtual assistants.',
+    'terms.section10.warning': 'The Service is provided "as is" and "as available", without warranties of any kind, express or implied.',
+    'terms.section10.p5': 'The limitations to SABIOCHAT\'s liability established herein and in other sections of these Terms and Conditions extend to SABIOCHAT\'s directors, managers, administrators, representatives, officers, employees and advisors.',
+
+    // Section 11 - Operation and Supervision
+    'terms.section11.content': 'SABIOCHAT makes available to THE CLIENT administration, monitoring and editing tools for their assistants. Therefore, interactions, conversations and content processed on the platform may be supervised according to THE CLIENT\'s needs.',
+
+    // Section 12 - Service Suspension or Cancellation
+    'terms.section12.p1': 'The Provider may, at its sole discretion and without prior notice, suspend or cancel the account of the User who incurs violations of these Terms, causes damage to the Platform or engages in activities that affect third party rights or violate the law.',
+    'terms.section12.p2': 'Likewise, the Provider reserves the right to discontinue the Service totally or partially at any time, and must notify the User with reasonable advance notice.',
+
+    // Section 13 - Privacy and Confidentiality
+    'terms.section13.p1': 'It is expressly clarified that SABIOCHAT does not permanently store content that THE CLIENT and/or END USERS upload, enter or transmit through the platform.',
+    'terms.section13.p2': 'Information is processed temporarily to generate automated responses, but it is not recorded nor accessible for later retrieval.',
+    'terms.section13.p3': 'Therefore, SABIOCHAT cannot provide copies or backups of what is entered by THE CLIENT, it being THE CLIENT\'s exclusive responsibility to preserve their content outside the platform.',
+    'terms.section13.p4': 'Notwithstanding the above, it is stated that by using our service, you give us consent to collect and use your information in accordance with what is established in our Privacy Policy.',
+
+    // Section 14 - Prohibited Use
+    'terms.section14.content': 'THE CLIENT undertakes not to use the platform for illegal, defamatory, discriminatory, offensive activities or that violate third party rights. Any inappropriate use may result in suspension or cancellation of the service, without right to refund.',
+
+    // Section 15 - Non-Exclusivity
+    'terms.section15.content': 'This contract does not imply any type of exclusivity for any of the parties.',
+
+    // Section 16 - Independence of Parties
+    'terms.section16.content': 'The use of the Service does not imply the existence of any type of employment, corporate, agency, mandate or franchise relationship between the Provider and the User. Each party acts independently and assumes their own risks and responsibilities.',
+
+    // Section 17 - Applicable Law and Jurisdiction
+    'terms.section17.content': 'These Terms will be governed and interpreted in accordance with the laws of the Argentine Republic. For any controversy arising from their interpretation, validity, execution or compliance, the parties submit to the jurisdiction of ordinary courts based in the Autonomous City of Buenos Aires, waiving any other jurisdiction that may correspond to them.',
+
+    // Section 18 - Contact
+    'terms.section18.content': 'For any inquiry related to these Terms and Conditions, the User may contact the Provider through the following means:',
+    'terms.contact.email': 'Email',
 
     
   }
