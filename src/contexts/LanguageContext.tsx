@@ -193,10 +193,10 @@ const translations = {
     'testimonials.sergiomastrangelo.company': 'Microglobal',
     'testimonials.sergiomastrangelo.content': 'Conectamos SabioChat a nuestra API y ahora nuestro equipo accede al stock y la información de productos en tiempo real, todo desde un solo lugar. Agilizó decisiones y mejoró la atención.',
 
-    'testimonials.ana.name': 'Ana Martínez',
-    'testimonials.ana.role': 'Coordinadora Digital',
-    'testimonials.ana.company': 'GobTech',
-    'testimonials.ana.content': 'La implementación fue sorprendentemente sencilla. En una semana teníamos el sistema funcionando y procesando consultas ciudadanas de manera eficiente.',
+    'testimonials.enriquesolchman.name': 'Enrique Solchman',
+    'testimonials.enriquesolchman.role': 'Director de Informática',
+    'testimonials.enriquesolchman.company': 'Superior Tribunal de Justicia de Tierra del Fuego',
+    'testimonials.enriquesolchman.content': '.',
 
 
 
@@ -619,8 +619,8 @@ const translations = {
     'testimonials.sergiomastrangelo.content': 'We connected SabioChat to our API and now our team accesses real-time stock and product information, all in one place. It sped up decision-making and improved support.',
 
     'testimonials.enriquesolchman.name': 'Enrique Solchman',
-    'testimonials.enriquesolchman.role': '.',
-    'testimonials.enriquesolchman.company': '.',
+    'testimonials.enriquesolchman.role': 'IT Director',
+    'testimonials.enriquesolchman.company': 'Superior Tribunal de Justicia de Tierra del Fuego',
     'testimonials.enriquesolchman.content': '.',
 
 
