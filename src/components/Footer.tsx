@@ -165,9 +165,6 @@ const Footer = () => {
             <a href="/terms" className="text-gray-400 hover:text-white transition-colors">
               {t('footer.terms')}
             </a>
-            <a href="#" className="text-gray-400 hover:text-white transition-colors">
-              {t('footer.cookies')}
-            </a>
           </div>
         </div>
       </div>
