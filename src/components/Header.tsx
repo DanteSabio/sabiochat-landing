@@ -69,9 +69,12 @@ const Header = () => {
               <Globe className="w-4 h-4 mr-1" />
               {language.toUpperCase()}
             </button>
-            <a href="https://calendly.com/hola-sabiochat/30min?month=2024-11" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-indigo-600 px-4 py-2 text-sm font-medium transition-colors">
+            <button
+              onClick={() => window.open('https://calendly.com/hola-sabiochat/30min?month=2024-11', '_blank', 'noopener,noreferrer')}
+              className="text-gray-700 hover:text-indigo-600 px-4 py-2 text-sm font-medium transition-colors"
+            >
               {t('nav.login')}
-            </a>
+            </button>
             <button className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-6 py-2 rounded-lg text-sm font-medium hover:from-indigo-700 hover:to-purple-700 transition-all duration-200 shadow-lg hover:shadow-xl">
               <a href="https://calendly.com/hola-sabiochat/30min?month=2024-11" target="_blank" rel="noopener noreferrer">
                 {t('nav.tryFree')}
@@ -120,9 +123,12 @@ const Header = () => {
                   {language.toUpperCase()}
                 </button>
                 <div className="flex space-x-2">
-                  <a href="https://calendly.com/hola-sabiochat/30min?month=2024-11" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-indigo-600 px-4 py-2 text-sm font-medium">
+                  <button
+                    onClick={() => window.open('https://calendly.com/hola-sabiochat/30min?month=2024-11', '_blank', 'noopener,noreferrer')}
+                    className="text-gray-700 hover:text-indigo-600 px-4 py-2 text-sm font-medium"
+                  >
                     {t('nav.login')}
-                  </a>
+                  </button>
                   <button className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-4 py-2 rounded-lg text-sm font-medium">
                     <a href="https://calendly.com/hola-sabiochat/30min?month=2024-11" target="_blank" rel="noopener noreferrer">
                       {t('nav.tryFree')}
