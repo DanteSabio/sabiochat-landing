@@ -51,8 +51,10 @@ const HeroSection = () => {
               </a>
             </Button>
             <Button variant="secondary" size="xl" className="group">
-              <Play className="mr-2 w-5 h-5" />
-              {t('hero.watchDemo')}
+              <a href="https://www.instagram.com/p/DJCMNmRxFVe/" target="_blank" rel="noopener noreferrer" className="flex items-center">
+                <Play className="mr-2 w-5 h-5" />
+                {t('hero.watchDemo')}
+              </a>
             </Button>
           </motion.div>
 
