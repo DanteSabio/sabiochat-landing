@@ -29,31 +29,33 @@ const Header = () => {
               whileHover={{ scale: 1.05 }}
               className="flex items-center space-x-3"
             >
-              <Image
-                src="/sabio-logo.png"
-                alt="SabioChat Logo"
-                width={32}
-                height={32}
-                className="w-8 h-8"
-              />
-              <span className="text-2xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-                SabioChat
-              </span>
+              <a href="/" className="flex items-center space-x-3">
+                <Image
+                  src="/sabio-logo.png"
+                  alt="SabioChat Logo"
+                  width={32}
+                  height={32}
+                  className="w-8 h-8"
+                />
+                <span className="text-2xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
+                  SabioChat
+                </span>
+              </a>
             </motion.div>
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#features" className="text-gray-700 hover:text-indigo-600 px-3 py-2 text-sm font-medium transition-colors">
+            <a href="/#features" className="text-gray-700 hover:text-indigo-600 px-3 py-2 text-sm font-medium transition-colors">
               {t('nav.features')}
             </a>
-            <a href="#how-it-works" className="text-gray-700 hover:text-indigo-600 px-3 py-2 text-sm font-medium transition-colors">
+            <a href="/#how-it-works" className="text-gray-700 hover:text-indigo-600 px-3 py-2 text-sm font-medium transition-colors">
               {t('nav.howItWorks')}
             </a>
-            <a href="#use-cases" className="text-gray-700 hover:text-indigo-600 px-3 py-2 text-sm font-medium transition-colors">
+            <a href="/#use-cases" className="text-gray-700 hover:text-indigo-600 px-3 py-2 text-sm font-medium transition-colors">
               {t('nav.useCases')}
             </a>
-            <a href="#pricing" className="text-gray-700 hover:text-indigo-600 px-3 py-2 text-sm font-medium transition-colors">
+            <a href="/#pricing" className="text-gray-700 hover:text-indigo-600 px-3 py-2 text-sm font-medium transition-colors">
               {t('nav.pricing')}
             </a>
           </nav>
@@ -97,16 +99,16 @@ const Header = () => {
             className="md:hidden border-t border-gray-200 py-4"
           >
             <div className="flex flex-col space-y-4">
-              <a href="#features" className="text-gray-700 hover:text-indigo-600 px-3 py-2 text-sm font-medium">
+              <a href="/#features" className="text-gray-700 hover:text-indigo-600 px-3 py-2 text-sm font-medium">
                 {t('nav.features')}
               </a>
-              <a href="#how-it-works" className="text-gray-700 hover:text-indigo-600 px-3 py-2 text-sm font-medium">
+              <a href="/#how-it-works" className="text-gray-700 hover:text-indigo-600 px-3 py-2 text-sm font-medium">
                 {t('nav.howItWorks')}
               </a>
-              <a href="#use-cases" className="text-gray-700 hover:text-indigo-600 px-3 py-2 text-sm font-medium">
+              <a href="/#use-cases" className="text-gray-700 hover:text-indigo-600 px-3 py-2 text-sm font-medium">
                 {t('nav.useCases')}
               </a>
-              <a href="#pricing" className="text-gray-700 hover:text-indigo-600 px-3 py-2 text-sm font-medium">
+              <a href="/#pricing" className="text-gray-700 hover:text-indigo-600 px-3 py-2 text-sm font-medium">
                 {t('nav.pricing')}
               </a>
               <div className="flex items-center justify-between pt-4 border-t border-gray-200">
