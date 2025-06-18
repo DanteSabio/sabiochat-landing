@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <head>
-      <script defer src='https://app-dev.sabiochat.com/sabiochat/scripts/va/sabioVirtualAssistantWidget.min.js' id='sc_sabio_assvirtual' data-crc='ODE0OTVlZmNhYTUzOTI0NTBiMmQ0ZWRhNTkyNjNlNTFiMDZiZmVmNGMxY2JmZGQ0ZDliZjFiYmQxYWQzY2JmNmh0dHBzOi8vc2FiaW9jaGF0LWxhbmRpbmcudmVyY2VsLmFwcC9eYXNzdF9HaXZDeTBhWnF0VUdsQllFQWNqVldycUZeMWNmNTljZTctMzc4OS00YjkxLTk1YzgtNWFhNTZkMDU0YjFj'></script>
+      <script defer src='https://app-dev.sabiochat.com/sabiochat/scripts/va/sabioVirtualAssistantWidget.min.js' id='sc_sabio_assvirtual' data-crc='OWYxNTBlZWZhNjFjYjJjNzFmMGNiOGFkNjZmYjM1OGQ3ZGFmMzdiZWUxYjJlMzJmN2ZhMTgxNTU3MjI0ZjExMGh0dHBzOi8vc2FiaW9jaGF0LWxhbmRpbmcudmVyY2VsLmFwcF5hc3N0X0dpdkN5MGFacXRVR2xCWUVBY2pWV3JxRl4xY2Y1OWNlNy0zNzg5LTRiOTEtOTVjOC01YWE1NmQwNTRiMWM='></script>
         <style dangerouslySetInnerHTML={{
           __html: `
             :root {
