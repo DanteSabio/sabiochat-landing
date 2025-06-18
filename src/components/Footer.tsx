@@ -29,9 +29,9 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center mb-4">
-              <span className="text-2xl font-bold bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">
+              <a href="/" className="text-2xl font-bold bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">
                 SabioChat
-              </span>
+              </a>
             </div>
             <p className="text-gray-300 mb-6 max-w-md">
               {t('footer.description')}
@@ -162,7 +162,7 @@ const Footer = () => {
             <a href="#" className="text-gray-400 hover:text-white transition-colors">
               {t('footer.privacy')}
             </a>
-            <a href="#" className="text-gray-400 hover:text-white transition-colors">
+            <a href="/terms" className="text-gray-400 hover:text-white transition-colors">
               {t('footer.terms')}
             </a>
             <a href="#" className="text-gray-400 hover:text-white transition-colors">
