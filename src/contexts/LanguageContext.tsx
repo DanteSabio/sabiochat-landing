@@ -166,11 +166,11 @@ const translations = {
     'faq.question2': '¿En qué canales puedo usar SabioChat?',
     'faq.answer2': 'En WhatsApp, Instagram, tu web, e-commerce o cualquier canal donde atiendas a clientes.',
 
-    'faq.question3': '¿Necesito saber programar?',
-    'faq.answer3': 'No. Creás tu asistente sin código desde un panel visual, fácil para cualquier usuario.',
+    'faq.question3': '¿Se puede integrar SabioChat con nuestros sistemas?',
+    'faq.answer3': 'Sí, SabioChat se conecta a tus sistemas internos como CRM, ERP o bases de datos para dar respuestas precisas y siempre actualizadas.',
 
-    'faq.question4': '¿Mi información está protegida?',
-    'faq.answer4': 'Sí. Usamos cifrado de nivel empresarial y cumplimos con normas de privacidad como GDPR.',
+    'faq.question4': '¿SabioChat usa mi información para entrenar la IA?',
+    'faq.answer4': 'No. Tus datos no se usan para entrenar modelos. Se mantienen privados y seguros.',
 
     'faq.question5': '¿Puedo cambiar de plan más adelante?',
     'faq.answer5': 'Sí, podés cambiar o actualizar el plan cuando quieras desde tu cuenta.',
@@ -591,11 +591,11 @@ const translations = {
     'faq.question2': 'What channels does SabioChat work with?',
     'faq.answer2': 'WhatsApp, Instagram, your website, e-commerce — connect it wherever your users are.',
 
-    'faq.question3': 'Do I need to code?',
-    'faq.answer3': 'Not at all. Build and manage your assistant visually — no technical skills required.',
+    'faq.question3': 'Can SabioChat integrate with our systems?',
+    'faq.answer3': 'Yes, SabioChat connects to your internal systems like CRM, ERP, or databases to provide accurate and always up-to-date answers.',
 
-    'faq.question4': 'Is my data secure?',
-    'faq.answer4': 'Absolutely. We use enterprise-level encryption and comply with regulations like GDPR.',
+    'faq.question4': 'Does SabioChat use my information to train the AI?',
+    'faq.answer4': 'No. Your data is not used to train any models. It remains private and secure.',
 
     'faq.question5': 'Can I switch plans later?',
     'faq.answer5': 'Yes! You can upgrade or change your plan anytime from your dashboard.',
