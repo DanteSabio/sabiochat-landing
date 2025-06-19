@@ -158,6 +158,7 @@ const translations = {
     'pricing.custom.features.whatsapp': 'Preguntas ilimitadas',
     'pricing.custom.features.reports': 'Informes personalizados',
     'pricing.custom.features.training': 'Integración con APIs',
+    'pricing.currencyNote': 'Todos los precios están expresados en dólares estadounidenses (USD)',
 
 
     'faq.question1': '¿SabioChat tiene prueba gratis?',

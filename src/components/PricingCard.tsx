@@ -59,11 +59,19 @@ const PricingCard: React.FC<PricingCardProps> = ({
             <span className="text-lg text-gray-400 line-through mr-2">{originalPrice}</span>
           )}
           <span className="text-4xl font-bold text-gray-900">{price}</span>
-          <span className="text-gray-600 ml-1">{period}</span>
+          {/* Solo añadir USD si no es el plan personalizado */}
+          {price !== t('pricing.custom.title') && (
+            <span className="text-sm text-gray-500 ml-1 font-medium">USD</span>
+          )}
         </div>
         
+        {/* Mostrar período solo si existe */}
+        {period && (
+          <div className="text-gray-600 text-sm">{period}</div>
+        )}
+        
         {originalPrice && (
-          <div className="inline-flex items-center px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm font-medium">
+          <div className="inline-flex items-center px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm font-medium mt-2">
             {t('pricing.saveMonths')}
           </div>
         )}
@@ -87,7 +95,7 @@ const PricingCard: React.FC<PricingCardProps> = ({
           <a href="https://calendly.com/hola-sabiochat/30min?month=2024-11" target="_blank" rel="noopener noreferrer" className="w-full">
             {buttonText}
           </a>
-         ) : (
+          ) : (
           buttonText
         )}
       </Button>
